@@ -1,0 +1,19 @@
+{
+  "name": "@openbox/elements",
+  "version": "1.0.0",
+  "description": "Form elements created for Openbox Cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openbox-cloud/elements.git"
+  },
+  "author": "Gerson E. Aguirre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/openbox-cloud/elements/issues"
+  },
+  "homepage": "https://github.com/openbox-cloud/elements#readme"
+}
