@@ -1,6 +1,6 @@
 {
   "name": "@openbox/elements",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Form elements created for Openbox Cloud",
   "main": "lib/openbox-elements.common.js",
   "scripts": {
