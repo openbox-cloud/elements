@@ -1,9 +1,9 @@
 <template>
-  <input type="text" placeholder="hola">
+  <span>hola</span>
 </template>
 
 <script>
 export default {
-  name: 'OBInput'
+  name: 'ObInput'
 }
 </script>

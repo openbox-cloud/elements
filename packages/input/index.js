@@ -1,7 +1,7 @@
-const OBInput = require("./src/input");
+import ObInput from "./src/input.vue";
 
-OBInput.install = (Vue) => {
-  Vue.component(OBInput.name, OBInput);
+ObInput.install = (Vue) => {
+  Vue.component(ObInput.name, ObInput);
 };
 
-module.exports = OBInput;
+export default ObInput;

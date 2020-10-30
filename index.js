@@ -1,5 +1,5 @@
-const OBInput = require("./packages/input/index");
-const components = [];
+import ObInput from "./packages/input/index.js";
+const components = [ObInput];
 
 const install = (Vue) => {
   for (const component of components) {
@@ -7,7 +7,7 @@ const install = (Vue) => {
   }
 };
 
-module.exports = {
+export default {
   install,
-  OBInput,
+  ObInput,
 };

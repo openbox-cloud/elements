@@ -1,10 +1,10 @@
 {
   "name": "@openbox/elements",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Form elements created for Openbox Cloud",
-  "main": "index.js",
+  "main": "lib/openbox-elements.common.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rm -rf lib && webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,17 @@
   "bugs": {
     "url": "https://github.com/openbox-cloud/elements/issues"
   },
-  "homepage": "https://github.com/openbox-cloud/elements#readme"
+  "homepage": "https://github.com/openbox-cloud/elements#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.4",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0",
+    "webpack-merge": "^5.3.0"
+  },
+  "dependencies": {}
 }
